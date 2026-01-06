@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="assign all"/>
+        <attribute name="authors" value="dinesh d"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:42:49 AM"/>
+        <attribute name="created" value="ZGluZXNoIGQ7RElORVNIRDsyMDI2LTAxLTA2OzEwOjAxOjU1IEFNOzI1MzY="/>
+        <attribute name="edited" value="ZGluZXNoIGQ7RElORVNIRDsyMDI2LTAxLTA2OzEwOjAzOjUzIEFNOzI7ZGluZXNoIGQ7RElORVNIRDsyMDI2LTAxLTA2OzA5OjQyOjUxIEFNO2Fzc2lnbmluZy5mcHJnOzY3NDg="/>
+        <attribute name="edited" value="ZGluZXNoIGQ7RElORVNIRDsyMDI2LTAxLTA2OzEwOjA5OjE2IEFNOzM7ZGluZXNoIGQ7RElORVNIRDsyMDI2LTAxLTA2OzEwOjAxOjU1IEFNOzUyNDY="/>
+        <attribute name="edited" value="ZGluZXNoIGQ7RElORVNIRDsyMDI2LTAxLTA2OzEwOjQyOjQ5IEFNOzI7MjY1Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <input variable="y"/>
+            <declare name="z" type="Integer" array="False" size=""/>
+            <input variable="z"/>
+            <if expression="x&gt;y">
+                <then>
+                    <if expression="x&gt;z">
+                        <then>
+                            <output expression="&quot;x is greater&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;z is greater&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="y&gt;z">
+                        <then>
+                            <output expression="&quot;y is greater&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;z is greater&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Celsius"/>
+        <attribute name="authors" value="dinesh d"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 03:32:22 PM"/>
+        <attribute name="created" value="ZGluZXNoIGQ7RElORVNIRDsyMDI2LTAxLTA2OzAzOjEyOjU1IFBNOzI1NTU="/>
+        <attribute name="edited" value="ZGluZXNoIGQ7RElORVNIRDsyMDI2LTAxLTA2OzAzOjIzOjI2IFBNOzE7ZGluZXNoIGQ7RElORVNIRDsyMDI2LTAxLTA2OzEwOjAxOjU1IEFNO2Fzc2lnbiBhbGwuZnByZzs2Nzg0"/>
+        <attribute name="edited" value="ZGluZXNoIGQ7RElORVNIRDsyMDI2LTAxLTA2OzAzOjMyOjIyIFBNOzE7MjY1OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="celsius" type="Real" array="False" size=""/>
+            <declare name="fahrenheit" type="Real" array="False" size=""/>
+            <output expression="&quot;temp in celsius&quot;" newline="True"/>
+            <input variable="celsius"/>
+            <assign variable="fahrenheit" expression="(celsius * 9 / 5) + 32"/>
+            <output expression="&quot;Temperature in Fahrenheit: &quot; &amp; fahrenheit" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
