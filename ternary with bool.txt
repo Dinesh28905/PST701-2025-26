@@ -1,0 +1,10 @@
+public class Main
+{
+    public static void main(String[] args) {
+
+        int a = 20, b = 10;
+        System.out.println("Ternary Operator using Boolean");
+        Boolean c=(a<b)?true:false;
+        System.out.println(c);
+                   }
+}

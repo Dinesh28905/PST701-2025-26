@@ -1,0 +1,11 @@
+public class Main{
+    public static void main(String[] args) {
+
+        int a = 20, b = 10;
+        System.out.println("Unary operators");
+        System.out.println("pre Decrement" + (--a));
+        System.out.println("pre Increment" + (++a));
+        System.out.println("Increment:" + (ab++));
+        System.out.println("Decrement" + (ab--));
+    }
+}
