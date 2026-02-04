@@ -1,0 +1,110 @@
+package PST;
+
+public class java 
+{
+	
+	public static void main(String[]args)
+	
+  {		java x = new java();
+		x.method1();
+		
+
+	 	java y = new java();
+		y.methoda();
+  }
+		
+				
+		public void method1()
+		
+		{
+			String a = "saif";
+			System.out.println(a+" is tall");	
+			method2();
+		}
+		
+		
+		public static  void method2() 
+		
+		{
+			String b = "dinesh";
+			System.out.println(b+"");	
+			method3();
+		}
+		
+		
+		public static void method3()
+		
+		{
+			String c = "thil";
+			System.out.println(c+"");	
+			method4();
+		}
+		
+		
+		public static void method4() 
+		
+		{
+			String d = "subash";
+			System.out.println(d);
+			method5();
+		}
+		
+		public static void method5() 
+		
+		{
+			String e = "srinath";
+			System.out.println(e);	
+		
+		}
+	
+
+
+
+	  
+				
+				
+		public  void methoda()
+		
+		{
+			String a = "saif";
+			System.out.println(a+" is tall");	
+			methodb();
+		}
+		
+		
+		public static  void methodb() 
+		
+		{
+			String b = "dinesh";
+			System.out.println(b+"");	
+			methodc();
+		}
+		
+		
+		public static void methodc()
+		
+		{
+			String c = "thil";
+			System.out.println(c+"");	
+			methodd();
+		}
+		
+		
+		public static void methodd() 
+		
+		{
+			String d = "subash";
+			System.out.println(d);
+			methode();
+		}
+		
+		public static void methode() 
+		
+		{
+			String e = "srinath";
+			System.out.println(e);	
+			
+}}
+		
+
+        
