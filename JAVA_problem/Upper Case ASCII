@@ -1,0 +1,16 @@
+package PST;
+
+public class Ascii_A_to_Z {
+
+    public static void main(String[] args) {
+
+        for
+        (char x = 'A'; x <= 'Z'; x++) 
+        {
+            int ascii = x;
+            System.out.print("Ascii from A to Z");
+            System.out.println();
+            System.out.println(x+ " : " + ascii);
+        }
+    }
+}
