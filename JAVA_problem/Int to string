@@ -1,0 +1,27 @@
+package PST;
+
+import java.util.Scanner;
+
+public class Int_to_String
+{
+
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int a = sc.nextInt();
+
+        convertToString(a);
+
+        sc.close();
+    }
+
+    public static void convertToString(int a) {
+
+        String str = Integer.toString(a);
+
+        System.out.println("Integer value: " + a);
+        System.out.println("String value: " + str);
+    }
+}
